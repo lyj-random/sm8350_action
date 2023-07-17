@@ -11,7 +11,7 @@ on:
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'star-mi'
+        default: 'miui-t'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
