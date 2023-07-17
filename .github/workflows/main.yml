@@ -35,12 +35,12 @@ on:
       USE_KPROBES:
         description: 'Use Kprobes'
         required: false
-        default: 'true'
+        default: 'false'
         type: boolean
       USE_KERNELSU:
         description: 'Use KernelSU'
         required: true
-        default: 'true'
+        default: 'false'
         type: boolean
       SSH:
         description: 'SSH connection to Actions'
