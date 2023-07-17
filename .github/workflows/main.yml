@@ -15,7 +15,7 @@ on:
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/star_defconfig'
+        default: 'star_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
